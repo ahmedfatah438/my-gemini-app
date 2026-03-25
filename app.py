@@ -11,7 +11,7 @@ if api_key:
         genai.configure(api_key=api_key)
         
         # سنحاول تجربة الأسماء البرمجية الأكثر شيوعاً والمتاحة حالياً
-        model_names = ['gemini-1.5-flash', 'gemini-1.5-pro', 'gemini-pro']
+        model_names = ['gemini-3-flash', 'gemini-1.5-flash', 'gemini-pro']
         
         # محاولة الاتصال بأول محرك متاح
         model = genai.GenerativeModel(model_names[0])
